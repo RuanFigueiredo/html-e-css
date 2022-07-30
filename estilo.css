@@ -27,6 +27,7 @@ article {
     padding: 20px;
     margin: 20px 0;
     background-color: red;
+
 }
 
 span {
@@ -42,4 +43,19 @@ img {
 }
 p{
     max-width: 100%;
+}
+
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
