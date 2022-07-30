@@ -1,23 +1,33 @@
-div.caixa1 {
-    background-color: orange;
-    border: 5px solid black;
+header {
+    border: 3px dashed  black;
+    margin: 50px;
+    padding: 20px;
 }
 
-div.caixa2 {
-    background-color: aqua;
-    border: 5px solid red;
+main {
+    border: 3px dashed  black;
+    margin: 50px;
+    padding: 20px;
 }
 
-div.caixa3 {
-    background-color: tomato;
-    border:5px dotted;
+footer {
+    border: 3px dashed  black;
+    margin: 50px;
+    padding: 20px;
 }
 
-div{
-    display: inline-block ;
-    width: 200px;
-    height: 100px;
-    margin: 30px;
-    padding: 50px;
-    
+section{
+    border-top: 2px dotted gray;
+    border-bottom: 2px dotted gray;
+}
+
+article {
+
+    padding: 20px;
+    margin: 20px 0;
+    background-color: red;
+}
+
+span {
+    background-color: yellow;
 }
