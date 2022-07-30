@@ -2,6 +2,7 @@ header {
     border: 3px dashed  black;
     margin: 50px;
     padding: 20px;
+    /*height: 100vh;*/
 }
 
 main {
@@ -30,4 +31,15 @@ article {
 
 span {
     background-color: yellow;
+}
+
+img {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width:100vh ;
+    max-width: 100%;    
+}
+p{
+    max-width: 100%;
 }
