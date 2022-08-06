@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+}
+
+/* pseudo-seletores*/   
+
+input {
+    border-color: blueviolet;
+}
+
+input:hover {
+    border-color: red;
+}
+
+p:hover{
+    color: blue;
+}
+
+input:focus {
+    width: 500px;
+}
+
+p:first-of-type {
+    background-color: aqua;
+}
+
+p:nth-child(odd){
+    background-color: whitesmoke;
+}
